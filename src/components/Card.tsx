@@ -1,5 +1,5 @@
 import React, {FC, memo} from "react";
-import {Button, Typography, Card as MuiCard, CardActions, CardContent, CardMedia, CardActionArea, ListItem, ListItemAvatar, Avatar, ListItemText} from '@mui/material';
+import {ListItem, ListItemAvatar, Avatar, ListItemText} from '@mui/material';
 import {styled} from '@mui/material/styles';
 import {Link} from 'react-router-dom';
 import {IPerson} from "src/types";

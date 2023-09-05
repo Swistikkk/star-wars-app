@@ -1,10 +1,9 @@
 import {memo} from 'react';
 import {Link, Outlet} from 'react-router-dom';
 import {styled, useTheme} from '@mui/material/styles';
-import {grey, common, blue} from '@mui/material/colors';
+import {common, blue} from '@mui/material/colors';
 import Logo from 'src/static/star-wars.svg';
 import {Grid} from '@mui/material';
-import BreadCrumbs from './BreadCrumbs';
 
 export const HEADER_HEIGHT = 15;
 export const PADDINGS = {
